@@ -1,0 +1,48 @@
+.modal-container{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 100;
+    background: red;
+}
+
+.modal-overlay{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: red;
+    opacity: 50%;
+}
+
+.logo{
+	z-index: 101;
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	-webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.modal-box{
+    width: 500px;
+    height: 300px;
+    background: #D7DBDD;
+    position: absolute;
+    z-index: 100;
+    top: 48%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}

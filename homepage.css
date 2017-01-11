@@ -1,0 +1,357 @@
+.modal-container{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 103; 
+}
+
+.modal-container-background{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: -1;
+}
+
+#label{
+	font-size: 24px;
+	color: #4BC7E8;
+	top: -404px;
+	position: relative;
+	height: 40px;
+	width: 160px;
+	text-align: center;
+	border-radius: 5px;
+	left: 18%;
+	font-size: 48px;
+	z-index: 102;
+	cursor: pointer;
+	transition: 0.3s;
+	-webkit-text-stroke-width: 2px;
+   	-webkit-text-stroke-color: #009F70;
+   	text-stroke-width: 2px;
+    text-stroke-color: #009F70;
+}
+
+.modal-overlay{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: white;
+    opacity: 1;
+    z-index: 104;
+}
+
+.modal-overlay-background{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: #396770; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, #99D154 , #396770); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #99D154, #396770); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, #99D154, #396770); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, #99D154, #396770); /* Standard syntax */
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.logo{
+	z-index: 101;
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	-webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 111;
+}
+
+.modal-box{
+    width: 500px;
+    height: 300px;
+    background: #D7DBDD;
+    position: absolute;
+    z-index: 100;
+    top: 48%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+#divider{
+	height: 100%;
+	width: 1%;
+	top: 0px;
+	position: absolute;
+	
+}
+
+.blue-divider {
+	left: 50%;
+	background: #009F70;
+}
+
+.green-divider {
+	left: 49%;
+	background: #4BC7E8;
+}
+
+.container-outline{
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	top: 115px;
+	left: 25px;
+}
+
+.container-img{
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	top: 115px;
+	left: 25px;
+}
+.image-shell {
+	position: relative;
+	top: 0%;
+	left: 40%;
+	height: 80%;
+	width: 50%;
+	z-index: 10;
+}
+
+.iPhone-shell {
+	border: 5px solid black;
+	position: relative;
+	top: 0%;
+	left: 40%;
+	height: 80%;
+	width: 50%;
+	border-radius: 20px;
+	background: #d8d8d8;
+}
+
+#mint{
+	opacity: 1;
+}
+
+.bg-img {
+	position: relative;
+	top: 43px;
+	opacity: 0.3;
+}
+
+.pop {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: -400px;
+	border: 5px solid black;
+	border-radius: 25px;
+}
+
+.img-overlay {
+	height: 100%;
+    width: 100%;
+    position: relative;
+    background: white;
+    opacity: 0;
+    z-index: 10;
+	border: 5px solid black;
+	border-radius: 25px;
+}
+
+#button {
+	position: relative;
+	height: 40px;
+	width: 160px;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	background: darkgreen;
+	opacity: 0.8;
+	left: 18%;
+	font-size: 24px;
+	z-index: 102;
+	cursor: pointer;
+	transition: 0.3s;
+	
+}
+
+.help-button {
+	top: -215px;
+}
+
+.signup-button {
+	top: -175px;
+}
+
+.signin-button {
+	top: -135px;
+}
+
+.home-button {
+	top: -255px;
+}
+
+#button:hover{
+	opacity: 1;
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+
+#contact-bar {
+	position: absolute;
+	background: white;
+	height: 40px;
+	width: 10%;
+	background: #7F8C8D;
+	top: 8%;
+	z-index: 1;
+	border-radius: 25px;
+	text-align: center;
+	opacity: 0.6;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.about-button {
+	left: 72.5%;
+}
+
+.proto-button {
+	left: 21%;
+}
+
+#contact-bar:hover{
+	opacity: 1;
+}
+
+#modal-container{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+
+#modal-overlay{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 50%;
+}
+
+#modal-box{
+    width: 500px;
+    height: 300px;
+    background: #d8d8d8;
+    position: absolute;
+    z-index: 100;
+    top: 48%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+#modal-footer{
+    display: inline-block;
+    position: relative;
+    left: 290px;
+    top: 195px;
+}
+
+#modal-content{
+    position: absolute;
+    top: 28%;
+    left: 4%;
+}
+
+#modal-header{
+    font-size: 32px;
+    color:  #009F70;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#submit{
+    cursor: pointer;
+    position: absolute;
+    padding: 7px;
+    font-size: 14px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: white;
+    background: #85C1E9;
+    text-align: center;
+    -webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+#cancel{
+    cursor: pointer;
+    position: absolute;
+    padding: 7px;
+    font-size: 14px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: white;
+    background: #009F70;
+    text-align: center;
+    margin-left: 370px;
+    margin-top: 20px;
+    -webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+#cancel:hover {
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+
+
+@media(max-width: 780px){
+	.divider {
+		height: 1%;
+		width: 100%;
+		top: 50%;
+		left: 0px;
+	}
+	.contaier-outline {
+		top: -100px;
+	}
+	.container-img{
+		top: 100%;
+	}
+}
